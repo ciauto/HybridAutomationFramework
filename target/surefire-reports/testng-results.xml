@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="1" ignored="0" total="3" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="TDAutomationFramework2" duration-ms="12076" started-at="2021-04-02T23:28:41Z" finished-at="2021-04-02T23:28:53Z">
+  <suite name="TDAutomationFramework2" duration-ms="8526" started-at="2021-06-05T14:33:36Z" finished-at="2021-06-05T14:33:44Z">
     <groups>
     </groups>
-    <test name="Login Test" duration-ms="1587" started-at="2021-04-02T23:28:41Z" finished-at="2021-04-02T23:28:43Z">
+    <test name="Login Test" duration-ms="1567" started-at="2021-06-05T14:33:36Z" finished-at="2021-06-05T14:33:37Z">
       <class name="testcases.TC001Login">
-        <test-method status="FAIL" signature="verifyLogin()[pri:0, instance:testcases.TC001Login@3b2da18f]" name="verifyLogin" duration-ms="740" started-at="2021-04-02T19:28:41Z" finished-at="2021-04-02T19:28:42Z">
+        <test-method status="FAIL" signature="verifyLogin()[pri:0, instance:testcases.TC001Login@3b2da18f]" name="verifyLogin" duration-ms="836" started-at="2021-06-05T10:33:36Z" finished-at="2021-06-05T10:33:37Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [Zero -Account Summary] but found [Zero - Log in]]]>
@@ -58,25 +58,25 @@
         </test-method> <!-- verifyLogin -->
       </class> <!-- testcases.TC001Login -->
     </test> <!-- Login Test -->
-    <test name="Add New Payee Test" duration-ms="9171" started-at="2021-04-02T23:28:43Z" finished-at="2021-04-02T23:28:52Z">
+    <test name="Add New Payee Test" duration-ms="5609" started-at="2021-06-05T14:33:37Z" finished-at="2021-06-05T14:33:43Z">
       <class name="testcases.TC002AddNewPayee">
-        <test-method status="PASS" signature="AddPayee()[pri:0, instance:testcases.TC002AddNewPayee@6107227e]" name="AddPayee" duration-ms="9143" started-at="2021-04-02T19:28:43Z" finished-at="2021-04-02T19:28:52Z">
+        <test-method status="PASS" signature="AddPayee()[pri:0, instance:testcases.TC002AddNewPayee@6107227e]" name="AddPayee" duration-ms="5570" started-at="2021-06-05T10:33:37Z" finished-at="2021-06-05T10:33:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AddPayee -->
       </class> <!-- testcases.TC002AddNewPayee -->
     </test> <!-- Add New Payee Test -->
-    <test name="Sprint Bill Pay Test" duration-ms="1302" started-at="2021-04-02T23:28:52Z" finished-at="2021-04-02T23:28:53Z">
+    <test name="Sprint Bill Pay Test" duration-ms="1328" started-at="2021-06-05T14:33:43Z" finished-at="2021-06-05T14:33:44Z">
       <class name="testcases.TC003PayBillSprint">
-        <test-method status="PASS" signature="init()[pri:0, instance:testcases.TC003PayBillSprint@3745e5c6]" name="init" is-config="true" duration-ms="3886" started-at="2021-04-02T19:28:37Z" finished-at="2021-04-02T19:28:41Z">
+        <test-method status="PASS" signature="init()[pri:0, instance:testcases.TC003PayBillSprint@3745e5c6]" name="init" is-config="true" duration-ms="4775" started-at="2021-06-05T10:33:31Z" finished-at="2021-06-05T10:33:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method status="PASS" signature="payBillSprint()[pri:0, instance:testcases.TC003PayBillSprint@3745e5c6]" name="payBillSprint" duration-ms="1273" started-at="2021-04-02T19:28:52Z" finished-at="2021-04-02T19:28:53Z">
+        <test-method status="PASS" signature="payBillSprint()[pri:0, instance:testcases.TC003PayBillSprint@3745e5c6]" name="payBillSprint" duration-ms="1295" started-at="2021-06-05T10:33:43Z" finished-at="2021-06-05T10:33:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- payBillSprint -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:testcases.TC003PayBillSprint@3745e5c6]" name="tearDown" is-config="true" duration-ms="890" started-at="2021-04-02T19:28:53Z" finished-at="2021-04-02T19:28:54Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testcases.TC003PayBillSprint@3745e5c6]" name="tearDown" is-config="true" duration-ms="923" started-at="2021-06-05T10:33:44Z" finished-at="2021-06-05T10:33:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

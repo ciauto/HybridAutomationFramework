@@ -14,6 +14,7 @@ pages\PayBillsPage.class
 testcases\TC002AddNewPayee.class
 utilities\TestConfig.class
 testcases\TC001Login.class
+rough\Dropdown.class
 utilities\Xls_Reader.class
 rough\Testmail.class
 utilities\Utilities.class
