@@ -15,6 +15,9 @@ import base.BaseClass;
 
 
 
+
+
+
 public class Utilities extends BaseClass {
 
 	public static String screenshotPath;
@@ -22,9 +25,10 @@ public class Utilities extends BaseClass {
 
 	public static void captureScreenshot() throws IOException {
 
-		File scrFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
+		File scrFile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
 
 		Date d = new Date();
+		
 		screenshotName = d.toString().replace(":", "_").replace(" ", "_") + ".png";
 
 		FileUtils.copyFile(scrFile,

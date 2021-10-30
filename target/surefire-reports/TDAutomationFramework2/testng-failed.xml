@@ -17,4 +17,15 @@
       </class> <!-- testcases.TC001Login -->
     </classes>
   </test> <!-- Login Test(failed) -->
+  <test name="Add New Payee Test(failed)">
+    <classes>
+      <class name="testcases.TC002AddNewPayee">
+        <methods>
+          <include name="AddPayee"/>
+          <include name="tearDown"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- testcases.TC002AddNewPayee -->
+    </classes>
+  </test> <!-- Add New Payee Test(failed) -->
 </suite> <!-- Failed suite [TDAutomationFramework2] -->

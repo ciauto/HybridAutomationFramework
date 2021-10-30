@@ -26,7 +26,7 @@ public class TC001Login extends BaseClass {
 		hp.doClick();
 		lp=new LoginPage(driver);
 		test.log(LogStatus.INFO, "Entered Username and Password");
-		lp.doLogin("username", "password1");
+		lp.doLogin("username", "password");
 		String actual = driver.getTitle();
 		String expected="Zero -Account Summary";
 		Assert.assertEquals(actual, expected);
