@@ -15,9 +15,21 @@ public class HomePage extends BasePage {
 	@FindBy(id="signin_button")
 	public WebElement btnSignIn;
 	
-	public void doClick() {
+	public void doClickSingInbtn() {
 		btnSignIn.click();
 		
 	}
+	
+	@FindBy(id="online-banking")
+	public WebElement btnMoreServices;
+	
+	
+	public void doClickMoreServicesbtn() {
+		btnMoreServices.click();
+		
+	}
+	
+	
+	
 
 }
