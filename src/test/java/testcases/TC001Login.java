@@ -16,8 +16,7 @@ public class TC001Login extends BaseClass {
 	@Test
 	public void verifyLogin() {
 	
-		test.log(LogStatus.INFO, "verifyLogin Test started");
-		app_logs.info("verifuLogin test started");
+	
 		HomePage hp = new HomePage(driver);
 		
 		hp.doClickSingInbtn();
