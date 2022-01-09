@@ -4,9 +4,9 @@
            failures="1"
            errors="0"
            skipped="0"
-           time="1.159">
+           time="1.163">
   <properties />
-            <testcase name="verifyLogin" time="1.159" classname="testcases.TC001Login">
+            <testcase name="verifyLogin" time="1.163" classname="testcases.TC001Login">
                 <failure type="java.lang.AssertionError"
                   message="expected [Zero -Account Summary] but found [Privacy error]"
               >
@@ -17,7 +17,7 @@
   org.testng.Assert.assertEquals(Assert.java:115)
   org.testng.Assert.assertEquals(Assert.java:189)
   org.testng.Assert.assertEquals(Assert.java:199)
-  testcases.TC001Login.verifyLogin(TC001Login.java:32)
+  testcases.TC001Login.verifyLogin(TC001Login.java:33)
   sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
   sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
   sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)

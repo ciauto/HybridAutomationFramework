@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="2" ignored="0" total="3" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="TDAutomationFramework2" duration-ms="35021" started-at="2021-11-13T15:32:04Z" finished-at="2021-11-13T15:32:39Z">
+  <suite name="TDAutomationFramework2" duration-ms="33932" started-at="2022-01-09T20:23:15Z" finished-at="2022-01-09T20:23:49Z">
     <groups>
     </groups>
-    <test name="Login Test" duration-ms="1982" started-at="2021-11-13T15:32:04Z" finished-at="2021-11-13T15:32:06Z">
+    <test name="Login Test" duration-ms="1714" started-at="2022-01-09T20:23:15Z" finished-at="2022-01-09T20:23:17Z">
       <class name="testcases.TC001Login">
-        <test-method status="FAIL" signature="verifyLogin()[pri:0, instance:testcases.TC001Login@3b2da18f]" name="verifyLogin" duration-ms="1159" started-at="2021-11-13T10:32:04Z" finished-at="2021-11-13T10:32:05Z">
+        <test-method status="FAIL" signature="verifyLogin()[pri:0, instance:testcases.TC001Login@3b2da18f]" name="verifyLogin" duration-ms="1163" started-at="2022-01-09T15:23:15Z" finished-at="2022-01-09T15:23:16Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [Zero -Account Summary] but found [Privacy error]]]>
@@ -20,7 +20,7 @@
 	at org.testng.Assert.assertEquals(Assert.java:115)
 	at org.testng.Assert.assertEquals(Assert.java:189)
 	at org.testng.Assert.assertEquals(Assert.java:199)
-	at testcases.TC001Login.verifyLogin(TC001Login.java:32)
+	at testcases.TC001Login.verifyLogin(TC001Login.java:33)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -58,34 +58,34 @@
         </test-method> <!-- verifyLogin -->
       </class> <!-- testcases.TC001Login -->
     </test> <!-- Login Test -->
-    <test name="Add New Payee Test" duration-ms="30362" started-at="2021-11-13T15:32:06Z" finished-at="2021-11-13T15:32:36Z">
+    <test name="Add New Payee Test" duration-ms="30337" started-at="2022-01-09T20:23:17Z" finished-at="2022-01-09T20:23:47Z">
       <class name="testcases.TC002AddNewPayee">
-        <test-method status="FAIL" signature="AddPayee()[pri:0, instance:testcases.TC002AddNewPayee@6107227e]" name="AddPayee" duration-ms="30078" started-at="2021-11-13T10:32:06Z" finished-at="2021-11-13T10:32:36Z">
+        <test-method status="FAIL" signature="AddPayee()[pri:0, instance:testcases.TC002AddNewPayee@6107227e]" name="AddPayee" duration-ms="30079" started-at="2022-01-09T15:23:17Z" finished-at="2022-01-09T15:23:47Z">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"id","selector":"user_login"}
-  (Session info: chrome=95.0.4638.69)
+  (Session info: chrome=96.0.4664.110)
   (Driver info: chromedriver=95.0.4638.54 (d31a821ec901f68d0d34ccdbaea45b4c86ce543e-refs/branch-heads/4638@{#871}),platform=Windows NT 10.0.19042 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 30.06 seconds
+Command duration or timeout: 30.08 seconds
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
-System info: host: 'LAPTOP-20464U94', ip: '192.168.0.107', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+System info: host: 'LAPTOP-20464U94', ip: '192.168.68.62', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:58023}, webauthn:extension:credBlob=true, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, webauthn:extension:largeBlob=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=95.0.4638.54 (d31a821ec901f68d0d34ccdbaea45b4c86ce543e-refs/branch-heads/4638@{#871}), userDataDir=C:\Users\Naresh\AppData\Local\Temp\scoped_dir7896_1175612149}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=95.0.4638.69, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true, webauthn:virtualAuthenticators=true}]
-Session ID: 285524a3936284f37d9f8f10b78aa9df
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:62717}, webauthn:extension:credBlob=true, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, webauthn:extension:largeBlob=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=95.0.4638.54 (d31a821ec901f68d0d34ccdbaea45b4c86ce543e-refs/branch-heads/4638@{#871}), userDataDir=C:\Users\Naresh\AppData\Local\Temp\scoped_dir16104_655001610}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=96.0.4664.110, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true, webauthn:virtualAuthenticators=true}]
+Session ID: 0eed2a4b1c1e0a0f054cafdce70d4cc0
 *** Element info: {Using=id, value=user_login}]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"id","selector":"user_login"}
-  (Session info: chrome=95.0.4638.69)
+  (Session info: chrome=96.0.4664.110)
   (Driver info: chromedriver=95.0.4638.54 (d31a821ec901f68d0d34ccdbaea45b4c86ce543e-refs/branch-heads/4638@{#871}),platform=Windows NT 10.0.19042 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 30.06 seconds
+Command duration or timeout: 30.08 seconds
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
-System info: host: 'LAPTOP-20464U94', ip: '192.168.0.107', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+System info: host: 'LAPTOP-20464U94', ip: '192.168.68.62', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:58023}, webauthn:extension:credBlob=true, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, webauthn:extension:largeBlob=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=95.0.4638.54 (d31a821ec901f68d0d34ccdbaea45b4c86ce543e-refs/branch-heads/4638@{#871}), userDataDir=C:\Users\Naresh\AppData\Local\Temp\scoped_dir7896_1175612149}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=95.0.4638.69, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true, webauthn:virtualAuthenticators=true}]
-Session ID: 285524a3936284f37d9f8f10b78aa9df
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:62717}, webauthn:extension:credBlob=true, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, webauthn:extension:largeBlob=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=95.0.4638.54 (d31a821ec901f68d0d34ccdbaea45b4c86ce543e-refs/branch-heads/4638@{#871}), userDataDir=C:\Users\Naresh\AppData\Local\Temp\scoped_dir16104_655001610}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=96.0.4664.110, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true, webauthn:virtualAuthenticators=true}]
+Session ID: 0eed2a4b1c1e0a0f054cafdce70d4cc0
 *** Element info: {Using=id, value=user_login}
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -140,17 +140,17 @@ Session ID: 285524a3936284f37d9f8f10b78aa9df
         </test-method> <!-- AddPayee -->
       </class> <!-- testcases.TC002AddNewPayee -->
     </test> <!-- Add New Payee Test -->
-    <test name="Sprint Bill Pay Test" duration-ms="2638" started-at="2021-11-13T15:32:36Z" finished-at="2021-11-13T15:32:39Z">
+    <test name="Sprint Bill Pay Test" duration-ms="1836" started-at="2022-01-09T20:23:47Z" finished-at="2022-01-09T20:23:49Z">
       <class name="testcases.TC003PayBillSprint">
-        <test-method status="PASS" signature="init()[pri:0, instance:testcases.TC003PayBillSprint@3745e5c6]" name="init" is-config="true" duration-ms="5739" started-at="2021-11-13T10:31:58Z" finished-at="2021-11-13T10:32:04Z">
+        <test-method status="PASS" signature="init()[pri:0, instance:testcases.TC003PayBillSprint@3745e5c6]" name="init" is-config="true" duration-ms="3983" started-at="2022-01-09T15:23:11Z" finished-at="2022-01-09T15:23:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method status="PASS" signature="payBillSprint()[pri:0, instance:testcases.TC003PayBillSprint@3745e5c6]" name="payBillSprint" duration-ms="2586" started-at="2021-11-13T10:32:36Z" finished-at="2021-11-13T10:32:39Z">
+        <test-method status="PASS" signature="payBillSprint()[pri:0, instance:testcases.TC003PayBillSprint@3745e5c6]" name="payBillSprint" duration-ms="1786" started-at="2022-01-09T15:23:47Z" finished-at="2022-01-09T15:23:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- payBillSprint -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:testcases.TC003PayBillSprint@3745e5c6]" name="tearDown" is-config="true" duration-ms="1370" started-at="2021-11-13T10:32:39Z" finished-at="2021-11-13T10:32:40Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testcases.TC003PayBillSprint@3745e5c6]" name="tearDown" is-config="true" duration-ms="1038" started-at="2022-01-09T15:23:49Z" finished-at="2022-01-09T15:23:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

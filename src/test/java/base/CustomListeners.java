@@ -1,24 +1,13 @@
 package base;
 
-import java.io.File;
+
 import java.io.IOException;
-import java.net.InetAddress;
-import java.net.UnknownHostException;
-
-import javax.mail.MessagingException;
-import javax.mail.internet.AddressException;
-
-import org.apache.commons.io.FileUtils;
-import org.openqa.selenium.OutputType;
-import org.openqa.selenium.TakesScreenshot;
 import org.testng.ISuite;
 import org.testng.ISuiteListener;
 import org.testng.ITestContext;
 import org.testng.ITestListener;
 import org.testng.ITestResult;
 import com.relevantcodes.extentreports.LogStatus;
-import utilities.MonitoringMail;
-import utilities.TestConfig;
 import utilities.Utilities;
 
 

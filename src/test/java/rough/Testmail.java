@@ -6,9 +6,6 @@ import java.net.UnknownHostException;
 import javax.mail.MessagingException;
 import javax.mail.internet.AddressException;
 
-import utilities.MonitoringMail;
-import utilities.TestConfig;
-
 
 
 public class Testmail {
